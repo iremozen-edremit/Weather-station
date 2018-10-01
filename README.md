@@ -1,6 +1,7 @@
 # Weather-station
 
 Database: IBM CLoudant
+
 Language: Python
 
 
@@ -12,12 +13,12 @@ time at the same time with user's submission. Every person also has to submit th
 name in the system. But the device which uses cannot separate the rooms. That's why every
 each submission has a long and complexity. (pls send a mail to see an example of the Json data)
 
-2) Every room must be matched with true temperature variables based location
+2)Every room must be matched with true temperature variables based location
 information in the device data. That’s why every submission must be cleaned other
 rooms information. To realize it I code a Python API script which includes Pandas
 library. 
 
-3) At the end of analyzing every desired threshold variables can be reached based
+3)At the end of analyzing every desired threshold variables can be reached based
 on the location from the website.
 
 
